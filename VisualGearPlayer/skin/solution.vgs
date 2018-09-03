@@ -1,4 +1,18 @@
 {
+   "files" : [
+      {
+         "name" : "Page0",
+         "path" : "Page0.json"
+      },
+      {
+         "name" : "Page1",
+         "path" : "Page1.json"
+      },
+      {
+         "name" : "Setting",
+         "path" : "Setting.json"
+      }
+   ],
    "height" : 600,
    "platform" : 0,
    "user" : "mike.yang",

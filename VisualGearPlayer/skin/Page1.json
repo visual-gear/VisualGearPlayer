@@ -1,0 +1,15 @@
+{
+   "elements" : [
+      {
+         "h" : 600,
+         "layout" : {
+            "type" : 1
+         },
+         "name" : "background",
+         "type" : "container",
+         "w" : 800
+      }
+   ],
+   "h" : 600,
+   "w" : 800
+}

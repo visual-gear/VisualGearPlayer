@@ -1,0 +1,68 @@
+{
+   "style" : [
+      {
+         "border" : true,
+         "borderclr" : "ffa0a0a0",
+         "clr" : "ff171717",
+         "drawImg" : false,
+         "fill" : true,
+         "name" : "videoBg",
+         "type" : 1
+      },
+      {
+         "borderSize" : 0,
+         "borderclr" : "ffffffff",
+         "bottomBorder" : false,
+         "clr" : "ff212121",
+         "img" : "images\\topBg.png",
+         "leftBorder" : false,
+         "name" : "captionBg",
+         "rightBorder" : false,
+         "topBorder" : false,
+         "type" : 1
+      },
+      {
+         "border" : true,
+         "borderclr" : "ff000000",
+         "bottomBorder" : false,
+         "clr" : "ff212121",
+         "drawImg" : false,
+         "fill" : true,
+         "name" : "rightBg",
+         "rightBorder" : false,
+         "topBorder" : false,
+         "type" : 1
+      },
+      {
+         "border" : true,
+         "borderSize" : 0,
+         "borderclr" : "ffffffff",
+         "bottomBorder" : false,
+         "clr" : "ff171717",
+         "drawImg" : false,
+         "fill" : true,
+         "leftBorder" : false,
+         "name" : "leftBg",
+         "rightBorder" : false,
+         "topBorder" : false,
+         "type" : 1
+      },
+      {
+         "borderSize" : 0,
+         "borderclr" : "ffffffff",
+         "bottomBorder" : false,
+         "clr" : "ffffffff",
+         "img" : "images\\bottomBg.png",
+         "leftBorder" : false,
+         "name" : "BottomBg",
+         "rightBorder" : false,
+         "topBorder" : false,
+         "type" : 1
+      },
+      {
+         "clr" : "f0c0c0c0",
+         "name" : "defLabel",
+         "type" : 2
+      }
+   ]
+}

@@ -1,0 +1,524 @@
+{
+   "dbmax" : true,
+   "drag" : true,
+   "elements" : [
+      {
+         "child" : [
+            {
+               "child" : [
+                  {
+                     "attr" : {
+                        "hasIcon" : false,
+                        "showText" : false
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 2,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 5
+                     },
+                     "name" : "button6",
+                     "type" : "button",
+                     "w" : 30
+                  },
+                  {
+                     "attr" : {
+                        "lcd" : false,
+                        "singleline" : true
+                     },
+                     "h" : 22,
+                     "name" : "label13",
+                     "style" : [
+                        [ "defLabel", 2, 0 ]
+                     ],
+                     "type" : "label",
+                     "w" : 173,
+                     "x" : 42,
+                     "y" : 3
+                  },
+                  {
+                     "attr" : {
+                        "path" : "images\\logo.png"
+                     },
+                     "h" : 29,
+                     "name" : "picture1",
+                     "type" : "picture",
+                     "w" : 29,
+                     "x" : 5,
+                     "y" : 3
+                  },
+                  {
+                     "attr" : {
+                        "disableIconPath" : "IDB_DISABLECHECK",
+                        "iconOffset" : 5,
+                        "iconPath" : "IDB_UNCHECK",
+                        "showIcon" : true,
+                        "siconPath" : "IDB_CHECKED",
+                        "state" : 0,
+                        "text" : "Checkbox"
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 2,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 40
+                     },
+                     "name" : "checkbox1",
+                     "type" : "checkbox",
+                     "w" : 33
+                  },
+                  {
+                     "attr" : {
+                        "hasIcon" : false,
+                        "showText" : true
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 2,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 80
+                     },
+                     "name" : "button2",
+                     "type" : "button",
+                     "w" : 30
+                  },
+                  {
+                     "attr" : {
+                        "hasIcon" : false,
+                        "showText" : true
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 2,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 152
+                     },
+                     "name" : "button3",
+                     "type" : "button",
+                     "w" : 32
+                  },
+                  {
+                     "attr" : {
+                        "disableIconPath" : "IDB_DISABLECHECK",
+                        "iconOffset" : 5,
+                        "iconPath" : "IDB_UNCHECK",
+                        "showIcon" : true,
+                        "siconPath" : "IDB_CHECKED",
+                        "state" : 0,
+                        "text" : "Checkbox"
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 2,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 117
+                     },
+                     "name" : "checkbox4",
+                     "type" : "checkbox",
+                     "w" : 30
+                  }
+               ],
+               "h" : 36,
+               "layout" : {
+                  "b" : 36,
+                  "hType" : 0,
+                  "r" : 1,
+                  "type" : 0,
+                  "x" : 1,
+                  "y" : 1
+               },
+               "name" : "container1",
+               "style" : [
+                  [ "captionBg", 1, 0 ]
+               ],
+               "type" : "container",
+               "w" : 966
+            },
+            {
+               "child" : [
+                  {
+                     "attr" : {
+                        "itemHeight" : 80,
+                        "template" : "tempItem"
+                     },
+                     "child" : [
+                        {
+                           "child" : [
+                              {
+                                 "child" : [
+                                    {
+                                       "attr" : {
+                                          "path" : "IDB_DEFAULT_PICTURE"
+                                       },
+                                       "h" : 50,
+                                       "name" : "picture8",
+                                       "type" : "picture",
+                                       "w" : 50,
+                                       "x" : 14,
+                                       "y" : 14
+                                    }
+                                 ],
+                                 "h" : 72,
+                                 "name" : "container7",
+                                 "type" : "container",
+                                 "w" : 79,
+                                 "x" : 8,
+                                 "y" : 8
+                              },
+                              {
+                                 "attr" : {
+                                    "lcd" : true,
+                                    "singleline" : true
+                                 },
+                                 "eveFun" : null,
+                                 "h" : 30,
+                                 "name" : "label9",
+                                 "style" : [
+                                    [ "defLabel", 2, 0 ]
+                                 ],
+                                 "type" : "label",
+                                 "w" : 138,
+                                 "x" : 100,
+                                 "y" : 13
+                              },
+                              {
+                                 "attr" : {
+                                    "lcd" : true,
+                                    "singleline" : true
+                                 },
+                                 "eveFun" : null,
+                                 "h" : 30,
+                                 "name" : "label9",
+                                 "style" : [
+                                    [ "defLabel", 2, 0 ]
+                                 ],
+                                 "type" : "label",
+                                 "w" : 138,
+                                 "x" : 100,
+                                 "y" : 49
+                              }
+                           ],
+                           "eveFun" : null,
+                           "h" : 91,
+                           "name" : "tempItem",
+                           "style" : [
+                              [ "emptyRect", 1, 0 ]
+                           ],
+                           "type" : "container",
+                           "w" : 233,
+                           "x" : 8,
+                           "y" : 41
+                        },
+                        {
+                           "attr" : {
+                              "size" : 0
+                           },
+                           "h" : 377,
+                           "layout" : {
+                              "b" : 0,
+                              "hor" : 2,
+                              "type" : 0,
+                              "wType" : 0
+                           },
+                           "name" : "scrollbar13",
+                           "type" : "scrollbar",
+                           "w" : 8
+                        }
+                     ],
+                     "eveFun" : null,
+                     "h" : 377,
+                     "layout" : {
+                        "b" : 5,
+                        "r" : 5,
+                        "type" : 1,
+                        "x" : 5,
+                        "y" : 40
+                     },
+                     "name" : "templateList12",
+                     "style" : [
+                        [ "emptyRect", 1, 0 ]
+                     ],
+                     "type" : "templateList",
+                     "w" : 260
+                  },
+                  {
+                     "attr" : {
+                        "lcd" : false,
+                        "singleline" : true
+                     },
+                     "h" : 22,
+                     "name" : "label13",
+                     "style" : [
+                        [ "defLabel", 2, 0 ]
+                     ],
+                     "type" : "label",
+                     "w" : 173,
+                     "x" : 12,
+                     "y" : 6
+                  },
+                  {
+                     "attr" : {
+                        "hasIcon" : false,
+                        "showText" : true
+                     },
+                     "h" : 25,
+                     "name" : "button10",
+                     "type" : "button",
+                     "w" : 28,
+                     "x" : 236,
+                     "y" : 6
+                  }
+               ],
+               "h" : 422,
+               "layout" : {
+                  "b" : 99,
+                  "hor" : 2,
+                  "r" : 270,
+                  "type" : 0,
+                  "wType" : 0,
+                  "x" : 1,
+                  "y" : 37
+               },
+               "name" : "container2",
+               "style" : [
+                  [ "rightBg", 1, 0 ]
+               ],
+               "type" : "container",
+               "w" : 270
+            },
+            {
+               "child" : [
+                  {
+                     "attr" : {
+                        "hasIcon" : false,
+                        "showText" : true,
+                        "text" : "打开文件"
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 1,
+                        "type" : 0,
+                        "ver" : 1,
+                        "wType" : 0
+                     },
+                     "name" : "button4",
+                     "type" : "button",
+                     "w" : 136
+                  }
+               ],
+               "eveFun" : null,
+               "h" : 420,
+               "layout" : {
+                  "b" : 98,
+                  "r" : 270,
+                  "type" : 0,
+                  "x" : 1,
+                  "y" : 40
+               },
+               "name" : "container3",
+               "style" : [
+                  [ "leftBg", 1, 0 ]
+               ],
+               "type" : "container",
+               "w" : 697
+            },
+            {
+               "child" : [
+                  {
+                     "attr" : {
+                        "hasIcon" : true,
+                        "hotIconPath" : "",
+                        "iconPath" : "images\\next.png",
+                        "showText" : false
+                     },
+                     "h" : 34,
+                     "layout" : {
+                        "hor" : 1,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 50
+                     },
+                     "name" : "button8",
+                     "style" : [
+                        [ "emptyRect", 1, 0 ]
+                     ],
+                     "type" : "button",
+                     "w" : 34
+                  },
+                  {
+                     "attr" : {
+                        "hasIcon" : false,
+                        "showText" : true
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 1,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : -50
+                     },
+                     "name" : "button8",
+                     "type" : "button",
+                     "w" : 36
+                  },
+                  {
+                     "attr" : {
+                        "hasIcon" : false,
+                        "showText" : true
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 1,
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : -100
+                     },
+                     "name" : "button8",
+                     "type" : "button",
+                     "w" : 36
+                  },
+                  {
+                     "attr" : {
+                        "disableIconPath" : "IDB_DISABLECHECK",
+                        "iconOffset" : 5,
+                        "iconPath" : "IDB_UNCHECK",
+                        "showIcon" : true,
+                        "siconPath" : "IDB_CHECKED",
+                        "state" : 0,
+                        "text" : "Checkbox"
+                     },
+                     "eveFun" : null,
+                     "h" : 30,
+                     "layout" : {
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 10
+                     },
+                     "name" : "checkbox9",
+                     "type" : "checkbox",
+                     "w" : 28
+                  },
+                  {
+                     "attr" : {
+                        "thumbH" : 20
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "type" : 0,
+                        "ver" : 1,
+                        "x" : 50
+                     },
+                     "name" : "slider10",
+                     "type" : "slider",
+                     "w" : 119
+                  },
+                  {
+                     "attr" : {
+                        "hasIcon" : true,
+                        "hotIconPath" : "images\\playh.png",
+                        "iconPath" : "images\\play.png",
+                        "showText" : false
+                     },
+                     "h" : 42,
+                     "layout" : {
+                        "hor" : 1,
+                        "type" : 0,
+                        "ver" : 1
+                     },
+                     "name" : "button1",
+                     "style" : [
+                        [ "emptyRect", 1, 0 ]
+                     ],
+                     "type" : "button",
+                     "w" : 42
+                  }
+               ],
+               "h" : 64,
+               "layout" : {
+                  "b" : 1,
+                  "r" : 1,
+                  "type" : 0,
+                  "ver" : 2,
+                  "x" : 1
+               },
+               "name" : "container5",
+               "style" : [
+                  [ "BottomBg", 1, 0 ]
+               ],
+               "type" : "container",
+               "w" : 966
+            },
+            {
+               "child" : [
+                  {
+                     "attr" : {
+                        "thumbH" : 20
+                     },
+                     "h" : 30,
+                     "layout" : {
+                        "r" : 120,
+                        "type" : 0,
+                        "x" : 10
+                     },
+                     "name" : "slider11",
+                     "type" : "slider",
+                     "w" : 836
+                  },
+                  {
+                     "attr" : {
+                        "lcd" : true,
+                        "singleline" : true
+                     },
+                     "eveFun" : null,
+                     "h" : 30,
+                     "layout" : {
+                        "hor" : 2,
+                        "type" : 0,
+                        "ver" : 1
+                     },
+                     "name" : "label12",
+                     "style" : [
+                        [ "defLabel", 2, 0 ]
+                     ],
+                     "type" : "label",
+                     "w" : 110
+                  }
+               ],
+               "h" : 30,
+               "layout" : {
+                  "r" : 1,
+                  "type" : 0,
+                  "ver" : 2,
+                  "x" : 1,
+                  "y" : 69
+               },
+               "name" : "container5",
+               "style" : [
+                  [ "BottomBg", 1, 0 ]
+               ],
+               "type" : "container",
+               "w" : 966
+            }
+         ],
+         "h" : 558,
+         "layout" : {
+            "type" : 1
+         },
+         "name" : "background",
+         "style" : [
+            [ "videoBg", 1, 0 ]
+         ],
+         "type" : "container",
+         "w" : 968
+      }
+   ],
+   "h" : 558,
+   "onlyDragCaption" : true,
+   "resize" : true,
+   "w" : 968
+}

@@ -2,7 +2,7 @@
 // Microsoft Visual C++ generated include file.
 // Used by VisualGearPlayer.RC
 //
-
+#include "wtl\atlres.h"
 
 #define IDD_ABOUTBOX				100
 #define IDR_MAINFRAME				128

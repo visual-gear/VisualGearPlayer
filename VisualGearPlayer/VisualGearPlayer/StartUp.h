@@ -7,7 +7,7 @@ public:
 	virtual ~CStartUp();
 
 // Dialog Data
-	enum { IDD = IDD_IMAGE_DIALOG };
+	enum { IDD = IDD_DIALOG_STARTUP };
 
 protected:
 	BEGIN_MSG_MAP(CStartUp)
@@ -17,7 +17,7 @@ protected:
 
 public:
 	LRESULT OnInitDialog(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled);
-
+	static DWORD WINAPI LoadingProgress(LPVOID lParam);
 		
 private:
 	UIGears::IUIGearsWindow*	m_pWindow;

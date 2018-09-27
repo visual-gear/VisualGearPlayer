@@ -143,6 +143,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MainPage.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="StartUp.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -154,6 +156,8 @@
     <ClInclude Include="MainDlg.h" />
     <ClInclude Include="MainPage.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Setting.h" />
+    <ClInclude Include="StartUp.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>

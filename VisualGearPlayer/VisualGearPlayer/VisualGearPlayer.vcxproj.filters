@@ -24,6 +24,12 @@
     <ClCompile Include="MainPage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -39,6 +45,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MainPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

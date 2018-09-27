@@ -1,12 +1,12 @@
 {
    "files" : [
       {
-         "name" : "Page0",
-         "path" : "Page0.json"
+         "name" : "MainPage",
+         "path" : "MainPage.json"
       },
       {
-         "name" : "Page1",
-         "path" : "Page1.json"
+         "name" : "StartUp",
+         "path" : "StartUp.json"
       },
       {
          "name" : "Setting",

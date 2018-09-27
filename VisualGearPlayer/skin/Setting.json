@@ -1,15 +1,166 @@
 {
+   "drag" : true,
    "elements" : [
       {
-         "h" : 600,
+         "child" : [
+            {
+               "child" : [
+                  {
+                     "attr" : {
+                        "isHor" : false,
+                        "itemSize" : 30
+                     },
+                     "h" : 306,
+                     "name" : "tab1",
+                     "style" : [
+                        [ "TabSelected", 1, 3 ],
+                        [ "defLabel", 2, 5 ]
+                     ],
+                     "type" : "tab",
+                     "w" : 122,
+                     "x" : 2,
+                     "y" : 2
+                  }
+               ],
+               "h" : 337,
+               "name" : "container1",
+               "type" : "container",
+               "w" : 126,
+               "x" : 1,
+               "y" : 34
+            },
+            {
+               "attr" : {
+                  "hasIcon" : true,
+                  "iconHor" : 0,
+                  "iconX" : 4,
+                  "iconY" : -2,
+                  "text" : "保存",
+                  "txtY" : -8
+               },
+               "h" : 37,
+               "name" : "button4",
+               "style" : [
+                  [ "openfileBg", 1, 0 ],
+                  [ "defLabelCenter", 2, 4 ]
+               ],
+               "type" : "button",
+               "w" : 93,
+               "x" : 234,
+               "y" : 384
+            },
+            {
+               "h" : 1,
+               "name" : "container1",
+               "type" : "container",
+               "w" : 523,
+               "x" : 1,
+               "y" : 371
+            },
+            {
+               "attr" : {
+                  "hasIcon" : true,
+                  "iconHor" : 0,
+                  "iconX" : 4,
+                  "iconY" : -2,
+                  "text" : "应用",
+                  "txtY" : -8
+               },
+               "h" : 37,
+               "name" : "button4",
+               "style" : [
+                  [ "openfileBg", 1, 0 ],
+                  [ "defLabelCenter", 2, 4 ]
+               ],
+               "type" : "button",
+               "w" : 93,
+               "x" : 330,
+               "y" : 384
+            },
+            {
+               "attr" : {
+                  "hasIcon" : true,
+                  "iconHor" : 0,
+                  "iconX" : 4,
+                  "iconY" : -2,
+                  "text" : "取消",
+                  "txtY" : -8
+               },
+               "h" : 37,
+               "name" : "button4",
+               "style" : [
+                  [ "openfileBg", 1, 0 ],
+                  [ "defLabelCenter", 2, 4 ]
+               ],
+               "type" : "button",
+               "w" : 93,
+               "x" : 426,
+               "y" : 384
+            },
+            {
+               "attr" : {
+                  "lcd" : false,
+                  "text" : "系统设置"
+               },
+               "h" : 22,
+               "name" : "label13",
+               "style" : [
+                  [ "defLabel", 2, 0 ]
+               ],
+               "type" : "label",
+               "w" : 89,
+               "x" : 45,
+               "y" : 4
+            },
+            {
+               "attr" : {
+                  "path" : "images\\logo.png"
+               },
+               "h" : 29,
+               "name" : "picture1",
+               "type" : "picture",
+               "w" : 29,
+               "x" : 6,
+               "y" : 3
+            },
+            {
+               "attr" : {
+                  "hasIcon" : true,
+                  "iconPath" : "images\\close.png",
+                  "showText" : false
+               },
+               "h" : 30,
+               "name" : "button6",
+               "style" : [
+                  [ "emptyRect", 1, 0 ]
+               ],
+               "type" : "button",
+               "w" : 30,
+               "x" : 492,
+               "y" : 2
+            },
+            {
+               "h" : 333,
+               "name" : "scrollview2",
+               "type" : "scrollview",
+               "w" : 50,
+               "x" : 130,
+               "y" : 34
+            }
+         ],
+         "h" : 430,
          "layout" : {
             "type" : 1
          },
          "name" : "background",
+         "style" : [
+            [ "SettingBg", 1, 0 ]
+         ],
          "type" : "container",
-         "w" : 800
+         "w" : 530
       }
    ],
-   "h" : 600,
-   "w" : 800
+   "h" : 430,
+   "trans" : true,
+   "w" : 530
 }

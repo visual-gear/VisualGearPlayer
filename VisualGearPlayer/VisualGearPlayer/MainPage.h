@@ -23,7 +23,15 @@ protected:
 
 public:
 	LRESULT OnInitDialog(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled);
-
+	
+	void BtnClicked(IUIGearsControl* pCtrl);
+	void MaxChanged(IUIGearsControl* pCtrl, UIGears::UICheckState state);
+	void PinChanged(IUIGearsControl* pCtrl, UIGears::UICheckState state);
+	void EpxandChange(IUIGearsControl* pCtrl, UIGears::UICheckState state);
+	void VolumeChanged(IUIGearsControl* pCtrl, int value);
+	void ProgressChanged(IUIGearsControl* pCtrl, int value);
+	void UpdateItem(IUIGearsControl* pCtrl, IUIGearsControl* pItem, int index);
+	
 	LRESULT OnAppAbout(WORD /*wNotifyCode*/, WORD /*wID*/, HWND /*hWndCtl*/, BOOL& /*bHandled*/)
 	{
 		CAboutDlg dlg;
@@ -52,5 +60,23 @@ public:
 		
 private:
 	UIGears::IUIGearsWindow*	m_pWindow;
+	UIGears::IUIGButton*			m_btnClose;
+	UIGears::IUIGCheckBox*			m_cbkMax;
+	UIGears::IUIGButton*			m_btnMin;
+	UIGears::IUIGButton*			m_btnSetting;
+	UIGears::IUIGCheckBox*			m_cbkPin;
+	UIGears::IUIGTemplateList*			m_playList;
+	UIGears::IUIGButton*			m_btnDelete;
+	UIGears::IUIGButton*			m_btnSort;
+	UIGears::IUIGButton*			m_btnOpen;
+	UIGears::IUIGButton*			m_btnNext;
+	UIGears::IUIGButton*			m_btnPrevious;
+	UIGears::IUIGButton*			m_btnStop;
+	UIGears::IUIGSlider*			m_volumeSlider;
+	UIGears::IUIGButton*			m_btnPlay;
+	UIGears::IUIGCheckBox*			m_btnExpand;
+	UIGears::IUIGButton*			m_volumnBtn;
+	UIGears::IUIGSlider*			m_progressSlider;
+	UIGears::IUIGLabel*			m_time;
 
 };

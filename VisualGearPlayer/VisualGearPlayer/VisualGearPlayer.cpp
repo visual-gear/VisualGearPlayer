@@ -10,7 +10,7 @@
 #include "resource.h"
 
 #include "aboutdlg.h"
-#include "MainDlg.h"
+#include "MainPage.h"
 
 CAppModule _Module;
 
@@ -19,7 +19,7 @@ int Run(LPTSTR /*lpstrCmdLine*/ = NULL, int nCmdShow = SW_SHOWDEFAULT)
 	CMessageLoop theLoop;
 	_Module.AddMessageLoop(&theLoop);
 
-	CMainDlg dlgMain;
+	CMainPage dlgMain;
 
 	if(dlgMain.Create(NULL) == NULL)
 	{
@@ -43,6 +43,12 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/, LPTSTR lp
 //	HRESULT hRes = ::CoInitializeEx(NULL, COINIT_MULTITHREADED);
 	ATLASSERT(SUCCEEDED(hRes));
 
+#ifdef DEBUG
+	UIGears::InitUIGears(_T("..\\..\\skin"));
+#else
+	UIGears::InitUIGears(_T("skin.zip"));
+#endif
+
 	// this resolves ATL window thunking problem when Microsoft Layer for Unicode (MSLU) is used
 	::DefWindowProc(NULL, 0, 0, 0L);
 
@@ -55,6 +61,8 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/, LPTSTR lp
 
 	_Module.Term();
 	::CoUninitialize();
+
+	UIGears::ShutdownUIGears();
 
 	return nRet;
 }
